@@ -1,6 +1,14 @@
-name = input("Как тебя зовут? ")
-age = int(input("Сколько тебе лет? "))
-
-years_to_100 = 100 - age
-print(f"Привет, {name}! Через {years_to_100} лет тебе будет 100 лет!")
-input("Нажми Enter, чтобы выйти...")
+arr = list()
+n = int(input("Enter number of elements: "))
+print("Enter elements:")
+i = 0
+while (i < n):
+    tmp = int(input(""))
+    arr.append(tmp)
+    i += 1
+print("Array:")
+i = 0
+while (i < n):
+    print(arr[i], end = " ")
+    i += 1
+print("")
