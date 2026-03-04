@@ -1,7 +1,13 @@
 arr = list()
 n = int(input("Enter number of elements: "))
+
+if n > 15:
+    print("Array size should be less than 15")
+    exit()
+
 print("Enter elements:")
 i = 0
+
 while (i < n):
     tmp = int(input(""))
     arr.append(tmp)
