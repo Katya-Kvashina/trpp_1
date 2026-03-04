@@ -5,16 +5,13 @@ if n <= 0:
         print("Error: Number of elements must be positive!")
         exit()
 
-print("Enter elements:")
-i = 0
 while i < n:
      if n > 15:
         print("Array size should be less than 15")
-exit()
+        exit()
 
 print("Enter elements:")
 i = 0
-
 while (i < n):
     tmp = int(input(""))
     arr.append(tmp)
